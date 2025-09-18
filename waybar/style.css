@@ -48,6 +48,7 @@ window#waybar {
 #cpu,
 #memory,
 #workspaces,
+#custom-phone,
 #tray,
 #backlight {
     background: #2A2D2D;
@@ -75,6 +76,12 @@ window#waybar {
 }
 
 #cpu {
+    border-radius: 0px 0px 0px 0px;
+    color: #bebebe;
+    margin-right: 0px;
+}
+
+#custom-phone {
     border-radius: 0px 10px 10px 0px;
     color: #bebebe;
     margin-right: 10px;
